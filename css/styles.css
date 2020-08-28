@@ -189,3 +189,19 @@ footer {
 .social-media {
   flex-direction: column;
 }
+
+scroll-container {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.ir-arriba {
+  display: none;
+  z-index: 10;
+
+  padding: 20px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
