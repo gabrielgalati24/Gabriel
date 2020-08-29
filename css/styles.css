@@ -75,13 +75,15 @@
 
 .imagen-perfil {
   vertical-align: middle;
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
 .icons {
   margin: 25px;
   float: left;
+  width: 60px;
+  height: 60px;
 }
 
 .acerca-de {
@@ -111,6 +113,10 @@
   font-weight: 300;
   font-size: 40px;
   margin-bottom: 30px;
+}
+
+.sectionAbout {
+  margin-top: 10px;
 }
 
 .acerca-de .info .resumen {
@@ -204,4 +210,14 @@ scroll-container {
   position: fixed;
   bottom: 0;
   right: 0;
+}
+.imagenes img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.footer-icon li {
+  width: 100px;
+  color: #0053;
+  justify-content: center;
 }
