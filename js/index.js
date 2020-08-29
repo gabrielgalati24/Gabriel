@@ -23,13 +23,13 @@ $(document).ready(function () {
     // movminemto de los proyectos con boton
     $("#button-proyectos").click(function () {
         $('html, body').animate({
-            scrollTop: $("#section-contacto").offset().top
+            scrollTop: $("#section-educacion").offset().top
         }, 500);
     });
     // movimiento de contacto con el scroll
     $("#button-contacto").click(function () {
         $('html, body').animate({
-            scrollTop: $("#myDiv").offset().top
+            scrollTop: $("#section-contacto").offset().top
         }, 500);
     });
 })
