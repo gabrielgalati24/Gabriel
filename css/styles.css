@@ -216,8 +216,6 @@ scroll-container {
   margin-top: 20px;
 }
 
-.footer-icon li {
-  width: 100px;
-  color: #0053;
-  justify-content: center;
+.footer-icon {
+  padding-top: 2%;
 }
