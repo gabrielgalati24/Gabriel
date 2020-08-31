@@ -6,6 +6,9 @@ $(document).ready(function () {
             scrollTop: '0px'
         }, 500);
     });
+    $(function () {
+        $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+    });
     /*mostrar flecha cuando se baje crool */
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
