@@ -21,11 +21,18 @@ $(document).ready(function () {
         }, 500);
     });
     // movminemto de los proyectos con boton
-    $("#button-proyectos").click(function () {
+    $("#button-educacion").click(function () {
         $('html, body').animate({
             scrollTop: $("#section-educacion").offset().top
         }, 500);
     });
+    $("#button-proyectos").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#section-proyectos").offset().top
+        }, 500);
+    });
+
+
     // movimiento de contacto con el scroll
     $("#button-contacto").click(function () {
         $('html, body').animate({

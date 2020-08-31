@@ -85,7 +85,9 @@
   width: 60px;
   height: 60px;
 }
-
+h3 {
+  margin-left: 20px;
+}
 .acerca-de {
   padding: 30px;
   margin-bottom: 40px;
