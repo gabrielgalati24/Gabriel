@@ -2,7 +2,9 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
@@ -153,31 +155,67 @@ About me -->
       </div>
     </section>
 
-<section id="section-proyectos">
-  <h3 class="container">Proyectos para probar</h3>
-  <div class="card-group">
-    <div class="card">
+    <section id="section-proyectos" class="portfolio section-bg">
+      <div class="container">
+    
+        <div class="section-title" data-aos="fade-up">
+          <h2>Portafolio</h2>
+         <p>Proyectos en funcionamiento usando reactjs nextjs y como plataforma de backned firebase en ambos casos para su desarrollo</p>
+        </div>
+    
+        
+        <div class="row portfolio-container" data-aos="fade-up">
+    
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="img/Screenshot_1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Clon de twitter</h4>
+    
+                <div class="portfolio-links">
+                  <!-- <a href="img/Screenshot_1.png" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a> -->
+                  <a href="https://twitter-9614fz5xu.vercel.app/" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/Screenshot_2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Aplicacion para guardar links con firebase</h4>
+  
+                <div class="portfolio-links">
+                  <!-- <a href="img/Screenshot_108.png" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a> -->
+                  <a href="https://pruebas-a8865.web.app" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <div class="card-body">
-        <h5 class="card-title">Clon de twitter</h5>
-        <p class="card-text">Clon de twitter en desarrollo con next subido a vercel</p>
-        <a href="https://twitter-9614fz5xu.vercel.app/" class="btn btn-primary">Ver</a>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/Screenshot_4.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Portafolio en reatcjs</h4>
+  
+                <div class="portfolio-links">
+                  <!-- <a href="img/Screenshot_108.png" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a> -->
+                  <a href="https://react-build-portafolio.herokuapp.com" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+      
+    
+         
+    
+        </div>
     
       </div>
-    </div>
-
-    
-    <div class="card">
-
-      <div class="card-body">
-        <h5 class="card-title">Aplicacion para guardar links con firebase</h5>
-        <p class="card-text">Reactjs + firebase usando los sockets de firebase</p>
-        <a href="https://pruebas-a8865.web.app" class="btn btn-primary">Ver</a>
-      </div>
-    </div>
-  </div>
-
-  <section/>
+    </section>
 
 <section id="section-educacion" class="section-educacion"">
   <div class="container">
@@ -247,6 +285,14 @@ About me -->
     </div>
 
 </section >
+
+
+
+
+
+
+
+
 
 
 
@@ -412,4 +458,5 @@ About me -->
             modal.style.display = "none";
           }
           </script>
+             <script src="assets/js/main.js"></script>
 </html>
