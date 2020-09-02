@@ -718,7 +718,7 @@ section {
   left: 0;
 }
 .certificados {
-  top: -150px;
+  top: -200px;
 }
 @media only screen and (max-width: 600px) {
   .certificados {
